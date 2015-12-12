@@ -1,0 +1,47 @@
+#ladderContainer{
+	margin-left: 300px;
+	color: 	#49d1f6;
+	width: 395px;
+	background-color: black;
+	font-size: 20px;
+	border: 5px solid black;
+	border-radius: 10px 10px 10px 10px;
+	clear: both;
+	display: inline-block;
+}
+
+.panel{
+	margin-top: 10px;
+	padding-left: 15px;
+	background-color: black;
+}
+
+a{
+	color: #49d1f6;
+}
+
+a:hover {
+    color: #49d1f6;
+}
+h2{
+	text-align: center;
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif; 
+	color: white;
+}
+h1{
+	margin-left: 100px;
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif; 
+	color: #FBC218;
+}
+#para{
+	text-align: center;
+	width: 350px;
+	font-size: 30px;
+	margin-right: 200px;
+	clear: both;
+	color: #49d1f6;
+	border-radius: 10px 10px 10px 10px;
+	background-color: black;
+	float: right;
+	padding: 5px 5px 5px 5px;
+}

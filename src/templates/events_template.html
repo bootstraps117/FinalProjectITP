@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="/css/events.css">
+<div>
+	<h1>Starcraft 2 and eSports Events</h1>
+</div>
+<div id="para">
+<p>
+	Interested in attending Starcraft and esports events!?
+</p>
+</div>
+<table align="center">
+<tr ng-repeat="event in vm.events">
+	<td><event-block event="event"></event-block></td>
+</tr>
+</table>

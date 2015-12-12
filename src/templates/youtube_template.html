@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="/css/youtube.css">
+<div>
+	<h1>Starcraft 2 Top Videos</h1>
+</div>
+<div id="para">
+<p>
+	Top Starcraft Videos on YouTube!
+</p>
+</div>
+<table align="center">
+<tr ng-repeat="video in vm.videos">
+	<td><youtube-video video="video">test</youtube-video></td>
+</tr>
+</table>

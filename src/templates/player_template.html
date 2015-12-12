@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="/css/players.css">
+
+<div class="row">
+	<div class="col-md-8">
+		<h1>Player Information</h1>
+		<p>Player Name: {{vm.playerMain.displayName}}</p>
+		<p>Clan Name: {{vm.playerMain.clanName}}</p>
+		<p>Player ID: {{vm.playerMain.id}}</p>
+		<p><a href="http://us.battle.net/sc2/en{{vm.playerMain.profilePath}}">Battle Net Profile</a></p>
+		<br>
+		<h1>Ladder Stats</h1>
+		<p>Ladder Name: {{vm.ladderMain.ladderName}}</p>
+		<p>Ladder League: {{vm.ladderMain.league}}</p>
+		<p>Ladder Rank: {{vm.ladderMain.rank}}</p>
+		<p>Wins: {{vm.ladderMain.wins}}</p>
+		<p>Losses: {{vm.ladderMain.losses}}</p>
+	</div>
+</div>

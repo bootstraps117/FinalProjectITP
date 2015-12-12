@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="css/ladders.css">
+<div>
+	<h1>Starcraft 2: Legacy of the Void GrandMaster Leagues</h1>
+</div>
+<div id="para">
+<p>
+	An actively updating list of the grandmaster league players for all regions!
+	<br>Click on a player for more information!
+</p>
+</div>
+<div id="ladderContainer">
+<section>
+	<ul class="nav nav-pills red">
+		<li ng-class='{active:tab === 1}'> 
+			<a href="" ng-click="tab = 1">NA Ladder</a> 
+		</li>
+		<li ng-class='{active:tab === 2}'> 
+			<a href="" ng-click="tab = 2">EU Ladder</a> 
+		</li>
+		<li ng-class='{active:tab === 3}'> 
+			<a href="" ng-click="tab = 3">KR Ladder</a> 
+		</li>
+	</ul>
+	<div class="panel" ng-show="tab === 1">
+		<h2>North America GrandMaster League</h2>
+		<ol>
+		<li ng-repeat="naPlayer in vm.naLadder">
+			<a href="#/ladders/us{{naPlayer.character.profilePath}}">
+				{{naPlayer.character.displayName}}
+			</a>
+		</li>
+	</ol>
+    </div>
+    <div class="panel" ng-show="tab === 2">
+    	<h2>Europe GrandMaster League</h2>
+    	<ol>
+		<li ng-repeat="euPlayer in vm.euLadder">
+			<a href="#/ladders/eu{{euPlayer.character.profilePath}}">
+				{{euPlayer.character.displayName}}
+			</a>
+		</li>
+	</ol>
+    </div>
+    <div class="panel" ng-show="tab === 3">
+    	<h2>Korean GrandMaster Ladder</h2>
+    	<ol>
+		<li ng-repeat="krPlayer in vm.krLadder">
+			<a href="#/ladders/kr{{krPlayer.character.profilePath}}">
+				{{krPlayer.character.displayName}}
+			</a>
+		</li>
+	</ol>
+    </div>
+</section>
+<div>
