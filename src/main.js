@@ -1,4 +1,3 @@
-//Key: bqhr8vy7jwcp5bc64ju9tauaukwgj4kg
 
 angular
 	.module('esports', ['ngRoute'])
