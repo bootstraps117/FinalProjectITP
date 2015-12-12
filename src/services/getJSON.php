@@ -1,6 +1,5 @@
 <?php
 
-$apiKey = "73577D40AF49D8A0CFCD3768B2DF918E";
 $ch = curl_init();
 
 $opts = array(
